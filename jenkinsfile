@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('pull'){
 steps {
-    git branch:'main', url:''
+    git branch:'main', url:'https://github.com/aishwaryagulhanew29-dot/Myrepo.git'
 }  
   }
         stage('build'){
